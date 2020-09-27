@@ -1,4 +1,4 @@
-# Teaching-Ratings
+# Impact of beauty on labor market 
 
 
 Several researchers have examined the impact of how beauty affects labor market outcomes,particularly earnings, and have attempted to infer the sources of its effects from the behavior of different economic agents (Hamermesh and Biddle, 1994; Biddle and Hamermesh, 1998).
@@ -19,7 +19,8 @@ The data was stored in an excel sheet. The data was imported to R-Studio
 5. Division of courses- lower division or upper division
 6. Native english speaker- yes or no
 7. course credit- one or more
-8. beauty scores
+8. beauty scores- integer
+9. eval- teaching evaluations- integer
 
 The following questions were answered:
 
