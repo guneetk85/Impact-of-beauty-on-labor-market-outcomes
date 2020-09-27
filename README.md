@@ -8,3 +8,37 @@ A substantial amount of research has indicated that academic administrators pay 
 In this study, the productivity effects of beauty is examined in the context of undergraduate education and the impact of professors' looks on their instructional ratings (Working Paper 9853 http://www.nber.org/papers/w9853)
 
 Dataset: The classes ranged in size from 8 to 581 students, while the number of students completing the instructional ratings ranged from 5 to 380. Underlying the 463 sample observations are 16,957 completed evaluations from 25,547 registered students
+
+
+The data was stored in an excel sheet. The data was imported to R-Studio
+#variables taken into consideration:
+1. age of the professor- integer variable
+2. Gender of the professor- male or female
+3. Minority status of the professor-yes or no (if the professor was educated in an english speaking country)
+4. Tenure status or the faculty member- tenured or not tenured
+5. Division of courses- lower division or upper division
+6. Native english speaker- yes or no
+7. course credit- one or more
+8. beauty scores
+
+The following questions were answered:
+
+1. Impact of beauty on teacher ratings
+2. Do teaching evaluations depend on minority and tenure status of a professor?
+3. Do professors who teach upper division courses receive lower teaching evaluations than those who teach lower division courses?
+4. What is the average teaching ratings for male and female professors 
+
+Functions used:
+1. table
+2. summary
+3. tapply and sapply
+4. regression models
+5. plot, xyplot, ggplot and box plot
+6. t test
+7. lm
+
+Packages used:
+1. Tableone
+2. stargazer
+3. ggplot2
+4. lattice
